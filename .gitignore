@@ -29,5 +29,8 @@ npm-debug.log*
 *.tmp
 .cache/
 
+# 工具内部工作目录
+.workbuddy/
+
 # 设计工具中间文件
 *.sketch.bak
