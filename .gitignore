@@ -1,0 +1,33 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 构建产物
+dist/
+build/
+out/
+*.local
+
+# 密钥与环境
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# 日志与临时文件
+*.log
+npm-debug.log*
+*.tmp
+.cache/
+
+# 设计工具中间文件
+*.sketch.bak
